@@ -5,15 +5,19 @@ import dotenv from 'dotenv'; // Module to load environment variables
 dotenv.config(); // Load environment variables from .env file
 
 
-import { fileURLToPath } from 'url';
+// This line creates the full path to a folder named 'data' inside your project directory
+// We need this line to make sure your code always saves files in the right place (the data folder), no matter where the script is run from
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const DATA_DIR = path.join(dirname(fileURLToPath(import.meta.url)), 'data');
+if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR)
+}
 
-const DATA_DIR = path.join(__dirname, 'data'); // Directory where data files are stored
-
-const WEATHER_FILE = path.join(DATA_DIR, 'weather.json'); // Path to the weather data file
-const LOG_FILE = path.join(DATA_DIR, 'weather_log.csv'); // Path to the log file
+// This 2 lines makes a full file path to `data/weather.json` & `data/weather_log.csv`
+const WEATHER_FILE = path.join(DATA_DIR, 'weather.json')
+const LOG_FILE = path.join(DATA_DIR, 'weather_log.csv')
 
 export async function fetchWeather() {
     const apiKey = process.env.WEATHER_API_KEY; // Get API key from environment variables
