@@ -5,35 +5,32 @@
   },
   "weather": [
     {
-      "id": 501,
-      "main": "Rain",
-      "description": "moderate rain",
-      "icon": "10d"
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 14.1,
-    "feels_like": 13.84,
-    "temp_min": 13.19,
-    "temp_max": 14.65,
-    "pressure": 993,
-    "humidity": 87,
-    "sea_level": 993,
-    "grnd_level": 983
+    "temp": 12.48,
+    "feels_like": 11.72,
+    "temp_min": 11.75,
+    "temp_max": 12.99,
+    "pressure": 995,
+    "humidity": 74,
+    "sea_level": 995,
+    "grnd_level": 985
   },
   "visibility": 10000,
   "wind": {
-    "speed": 5.14,
-    "deg": 180
-  },
-  "rain": {
-    "1h": 2.17
+    "speed": 6.17,
+    "deg": 200
   },
   "clouds": {
     "all": 75
   },
-  "dt": 1765284422,
+  "dt": 1765305312,
   "sys": {
     "type": 2,
     "id": 2013239,
@@ -45,5 +42,5 @@
   "id": 2643123,
   "name": "Manchester",
   "cod": 200,
-  "_last_updated_utc": "2025-12-09T12:48:48.410Z"
+  "_last_updated_utc": "2025-12-09T18:49:25.831Z"
 }

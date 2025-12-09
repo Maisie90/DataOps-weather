@@ -5,10 +5,12 @@ import dotenv from 'dotenv'; // Module to load environment variables
 dotenv.config(); // Load environment variables from .env file
 
 
-const DATA_DIR = path.join(import.meta.dirname, 'data'); // Directory where data files are stored
-if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR); // Create data directory if it doesn't exist
-}
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const DATA_DIR = path.join(__dirname, 'data'); // Directory where data files are stored
 
 const WEATHER_FILE = path.join(DATA_DIR, 'weather.json'); // Path to the weather data file
 const LOG_FILE = path.join(DATA_DIR, 'weather_log.csv'); // Path to the log file
