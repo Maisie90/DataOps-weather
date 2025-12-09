@@ -1,0 +1,50 @@
+{
+  "coord": {
+    "lon": -2.2374,
+    "lat": 53.4809
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 13.13,
+    "feels_like": 12.85,
+    "temp_min": 12.52,
+    "temp_max": 13.41,
+    "pressure": 995,
+    "humidity": 90,
+    "sea_level": 995,
+    "grnd_level": 985
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.14,
+    "deg": 170,
+    "gust": 10.8
+  },
+  "rain": {
+    "1h": 0.13
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1765274726,
+  "sys": {
+    "type": 2,
+    "id": 2002511,
+    "country": "GB",
+    "sunrise": 1765267968,
+    "sunset": 1765295408
+  },
+  "timezone": 0,
+  "id": 2643123,
+  "name": "Manchester",
+  "cod": 200,
+  "_last_updated_utc": "2025-12-09T10:16:21.289Z"
+}
