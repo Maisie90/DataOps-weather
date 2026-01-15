@@ -888,3 +888,5 @@ timestamp,city,temperature,description
 2026-01-15T08:22:41.063Z,Manchester,5.42,broken clouds
 2026-01-15T10:17:06.095Z,Manchester,4.83,broken clouds
 2026-01-15T10:17:06.097Z,Manchester,4.83,broken clouds
+2026-01-15T12:31:44.316Z,Manchester,6.15,overcast clouds
+2026-01-15T12:31:44.318Z,Manchester,6.1,broken clouds
