@@ -926,3 +926,5 @@ timestamp,city,temperature,description
 2026-01-16T22:15:02.055Z,Manchester,6.75,broken clouds
 2026-01-17T01:08:21.565Z,Manchester,7.18,broken clouds
 2026-01-17T01:08:21.566Z,Manchester,7.15,broken clouds
+2026-01-17T03:17:33.406Z,Manchester,7.15,light rain
+2026-01-17T03:17:33.407Z,Manchester,7.15,moderate rain
